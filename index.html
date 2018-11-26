@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BookShelf Store</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script defer src="/js/main.js"></script>
+</head>
+<body>
+    <nav class="navigation">
+        <h2>
+            <a href="/">BOOKSHELF LIBRARY HOME</a>
+        </h2>
+    </nav>
+    <main class="main-grid">
+        <div class="left-container">
+            <form id="bookForm">
+                <h2>Add Book</h2>
+                <p>
+                    <label for="title">Title</label>
+                    <br>
+                    <input type="text" name="title" size="30">
+                </p>
+                <p>
+                    <label for="author">Author</label>
+                    <br>
+                    <input type="text" name="author" size="30">
+                </p>
+                <p>
+                    <label for="isbn">ISBN</label>
+                    <br>
+                    <input type="text" name="isbn" size="30">
+                </p>
+                <p>
+                    <label for="description">Description</label>
+                    <br>
+                    <textarea name="description" cols="30" rows="10" style="resize:none;"></textarea>
+                </p>
+                <p>
+                    <label for="price">Price</label>
+                    <br>
+                    <input type="number" name="price">
+                </p>
+                <p>
+                    <input type="submit" value="Create Book">
+                </p>
+    
+            </form>
+
+            <div class="authors-box">
+                <h2>Top Authors</h2>
+                <ol class="authors">
+                    <li>
+                        <a href="#">Bender Rodriguez</a>
+                    </li>
+        
+                </ol>
+            </div>
+
+
+        </div>
+            <ul class="books"></ul>
+    </main>
+
+
+
+</body>
+</html>
+
